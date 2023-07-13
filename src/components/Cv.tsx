@@ -1,4 +1,4 @@
-import PdfCv from "src\assets\Currículo-Otavio-Augusto.pdf"  
+import PdfCv from "../assets/Currículo-Otavio-Augusto.pdf"  
 
 const Cv = () =>{
   return(
