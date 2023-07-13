@@ -14,7 +14,7 @@ const Projectx = (props:any) => {
             {props.LowerText}
           </div> 
 
-          <a  target="_blank" className="w-1/6 h-12 bg-purple-900 text-yellow-100 flex justify-center rounded-xl self-center cursor-pointer hover:bg-purple-800 hover:scale-110 transition-all" href={props.Git}>
+          <a  target="_blank" className="w-1/6 h-12 bg-purple-900 text-yellow-100 flex justify-center rounded-xl self-center cursor-pointer hover:bg-purple-800 hover:scale-110 transition-all" href={props.Repo}>
             <p className="self-center text-xl font-black">GITHUB</p>
           </a>
 
