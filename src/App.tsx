@@ -4,9 +4,10 @@ import {ChevronDown} from 'lucide-react'
 import Upper from './components/parts/Upper'
 import Lower from './components/parts/Lower'
 import EmailCopy from './components/Email'
+import About from './components/parts/About'
 
 function App() {
-   return (
+  return (
     <div className='snap-proximity'>
         <Upper/>
         <div className='h-24 bg-yellow-100 flex justify-center flex-row'>
@@ -17,8 +18,9 @@ function App() {
         </div>
         <Lower/>
         <div className='h-40'>
-         <EmailCopy/>
+        <EmailCopy/>
         </div>
+        <About/>
     </div>
 
   )
