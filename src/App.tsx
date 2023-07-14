@@ -12,7 +12,7 @@ function App() {
         <Upper/>
         <div className='h-24 bg-yellow-100 flex justify-center flex-row'>
           <ChevronDown className='self-center'></ChevronDown>
-          <p className='self-center text-purple-900 font-black text-3xl'> ALGUNS DOS MEUS PROJETOS</p>
+          <p className='self-center text-purple-900 font-black text-3xl'> SOME OF MY PROJECTS</p>
           <ChevronDown className='self-center'></ChevronDown>
 
         </div>

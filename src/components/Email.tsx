@@ -32,7 +32,7 @@ const EmailCopy = () =>{
 
   function copyEmail() {
     navigator.clipboard.writeText(email)
-    setCopySuccessMessage(`E-MAIL COPIADO COM SUCESSO!`)
+    setCopySuccessMessage(`EMAIL COPIED SUCCESSFULLY!`)
     setInstructions('')
     setBackground('bg-green-200')
     setAnimation('animate-none')
@@ -43,7 +43,7 @@ const EmailCopy = () =>{
 
       return
     }
-    setInstructions('COPIE MEU E-MAIL CLICANDO AQUI!')
+    setInstructions('COPY MY EMAIL CLICKING HERE')
     setBackground('bg-yellow-200')
     setAnimation('animate-textAppear animate-fadeIn ')
 

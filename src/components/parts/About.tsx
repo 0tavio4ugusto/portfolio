@@ -7,13 +7,13 @@ const About = () => {
       <div className="flex flex-row justify-evenly">
       <img className=" scale-105 " src={eu} alt="" />
       <div className="w-1/4 text-justify self-center scale-125">
-        <p className=" text-purple-300 text-5xl font-black text-center self-center"> - SOBRE MIM - </p>
+        <p className=" text-purple-300 text-5xl font-black text-center self-center"> - ABOUT ME - </p>
         <p className="font-black text-gray-200 mt-12 w-11/12">
-        Olá, me chamo Otavio Augusto, tenho 21 anos e atualmente, estou dedicando 100% do meu tempo para melhorar minhas habilidades em desenvolvimento, com foco em Web usando <span className="text-teal-300">Tailwind </span>,
+        Hello, my name is Otavio Augusto, I'm brazilian, I'm currently 21 years old and I'm spending 100% of my time trying to enhance my skills in development, mainly focusing in Web using <span className="text-teal-300">Tailwind </span>,
           <span className="text-blue-400">TypeScript </span> /
-          <span className="text-yellow-300"> JavaScript</span> e
+          <span className="text-yellow-300"> JavaScript</span> and
           <span className="text-cyan-300"> React</span>.
-          Busco constante evolução em minhas habilidades e conhecimentos, tanto em diferentes áreas da tecnologia quanto dentro da esfera de front-end! Por último, mas não menos importante, tenho o anseio profissional de poder trabalhar na área com uma equipe, para que eu possa aprender não apenas com a prática, mas também com os diversos conhecimentos e experiências dos meus colegas de profissão!  
+          I constantly seek to evolve my skills and knowledge, both in different areas of technology and within the realm of front-end development! Last but not least, I have a professional desire to work in the field with a team so that I can learn not only through practice but also from the diverse knowledge and experiences of my professional colleagues!  
         </p>
       </div>
       </div>
